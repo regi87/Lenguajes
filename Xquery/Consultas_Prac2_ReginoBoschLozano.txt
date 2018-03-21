@@ -1,0 +1,73 @@
+Consultas Ejercicio 2 Regino Bosch Lozano
+
+Consulta 1:
+
+	for $falla in doc("Entidades festeras.xml")//entidades/entidad
+	where $falla/nomentidad = "Falla La Plaza"
+	return $falla/festeros/festero/nomfestero
+
+Consulta 2:
+
+	for $acto in doc("Entidades festeras.xml")//entidades/entidad/actosfesteros/acto
+	where $acto/fecha='19/8/2012'
+	return $acto/nomacto
+
+Consulta 3:
+
+	for $entidad in doc("Entidades festeras.xml")//entidades/entidad
+	where $entidad/festeros/festero/nomfestero="Pepe"
+	return $entidad/nomentidad
+
+Consulta 4:
+
+	for $acto in doc("Entidades festeras.xml")//entidades/entidad
+	where $acto/actosfesteros/acto/fecha = '19/8/2012'
+	return $acto/festeros/festero/nomfestero
+
+Consulta 5:
+
+	for $entidad in doc("Entidades festeras.xml")//entidades/entidad
+	where $entidad/festeros/festero/edad >= 29
+	return
+	<etiq>
+	{$entidad/nomentidad}
+	{$entidad/festeros/festero/nomfestero}
+	</etiq>
+
+Consulta 6:
+	
+	for $entidad in doc("Entidades festeras.xml")//entidades/entidad
+	where $entidad/actosfesteros/acto/nomacto = "Mercadillo"
+	return
+	<etiq>
+	{$entidad/nomentidad}
+	{$entidad/actosfesteros/acto/fecha}
+	</etiq>
+
+Consulta 7:
+
+	for $entidad in doc("Entidades festeras.xml")//entidades/entidad
+	let $total_miembros := count($entidad/festeros/festero)
+	let $edades := $entidad/festeros/festero/edad
+	let $edad := avg($edades)
+	return
+	<etiq>
+	{$entidad/nomentidad}
+	{$entidad/ciudad}
+	<Total_Miembros>{$total_miembros}</Total_Miembros>
+	<Medida_Edad>{$edad}</Medida_Edad>
+	</etiq>
+
+Consulta 8:
+
+	for $entidad in doc("Entidades festeras.xml")//entidades/entidad
+	where $entidad/actosfesteros/acto/fecha >= "2012/08/01" 
+	and $entidad/actosfesteros/acto/fecha <= "2012/08/31"
+	return
+	<etiq>
+	{$entidad/nomentidad}
+	{$entidad/actosfesteros/acto/nomacto}
+	{$entidad/actosfesteros/acto/fecha}
+	</etiq>
+	
+	
