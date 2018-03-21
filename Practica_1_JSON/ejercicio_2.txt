@@ -1,0 +1,4 @@
+Número de Carácteres:
+
+JSON : 686
+XML : 820

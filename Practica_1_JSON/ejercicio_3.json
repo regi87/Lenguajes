@@ -1,0 +1,43 @@
+{
+  "facturas":
+  {
+    "factura":
+    {
+      "iva":"12%", "base imponible":"123", "total":"1111", "forma pago":"efectivo",
+      "empresas":
+      {
+        "empresa":
+        {
+          "nombre":"CRONOS","direccion":"Belenguera, s/n", "nif":"1223323",
+          "telefonos":
+          [
+            "123243","879678976"
+          ]
+        }
+      },
+      "clientes":
+      {
+        "cliente":
+        {
+          "nombre":"Regi", "apellidos":["Bosch","Lozano"],"direccion":"Miguel Almenar, 27",
+          "telefono":"605928593", "nif":"53245234",
+          "elementos":
+          {
+            "elemento":
+            [
+              {
+                "nombre":"Ratón", "cantidad":"12", "precio":"12€"
+              },
+              {
+                "nombre":"Teclado", "cantidad":"15", "precio":"22€"
+              },
+              {
+                "nombre":"Pantalla", "cantidad":"82", "precio":"12€"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
