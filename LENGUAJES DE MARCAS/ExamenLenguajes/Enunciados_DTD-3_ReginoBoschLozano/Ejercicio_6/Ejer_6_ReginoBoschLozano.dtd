@@ -1,0 +1,6 @@
+<!ELEMENT listado_alumnos(alumnos)>
+<!ELEMENT alumnos(nombre, fecha_nacimiento, sexo)>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT nombre ANY>
+<!ELEMENT sexo (#PCDATA)>

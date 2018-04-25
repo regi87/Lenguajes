@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda [
+
+<!ELEMENT agenda (contacto)>
+<!ELEMENT contacto (nombre, apellidos+,telefono*,correo?)>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos ANY>
+<!ELEMENT telefono ANY>
+
+<!ATTLIST telefono paisTelf CDATA  "España" >
+
+
+
+<!ELEMENT correo ANY>
+
+<!ELEMENT direccion (calle*,numero*,ciudad*,codigo_postal)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT codigo_postal (#PCDATA)>
+
+]>
+
+  <agenda>
+      <contacto>
+          <nombre>Regino</nombre>
+          <apellidos>Bosch Lozano</apellidos>
+          <telefono paisTelf= "España">605928593</telefono>
+          <correo>reginoboschlozano@gmail.com</correo>
+              <direccion>
+                  <calle>Miguel Almenar</calle>
+                  <numero>27</numero>
+                  <ciudad>Alginet</ciudad>
+                  <codigo_postal>46230</codigo_postal>
+              </direccion>
+      </contacto>
+
+      <contacto>
+          <nombre>Luis</nombre>
+          <apellidos> Lozano Garcia</apellidos>
+          <telefono paisTelf= "España">6065958592</telefono>
+          <correo>Luis@gmail.com</correo>
+              <direccion>
+                  <calle>Cervantes</calle>
+                  <numero>7</numero>
+                  <ciudad>Benifaio</ciudad>
+                  <codigo_postal>42236</codigo_postal>
+              </direccion>
+      </contacto>
+
+      <contacto>
+          <nombre>Pepe</nombre>
+          <apellidos>Garrido Garrido</apellidos>
+          <telefono paisTelf= "España">604546421</telefono>
+          <correo>Garrido@gmail.com</correo>
+              <direccion>
+                  <calle>Miguel</calle>
+                  <numero>2</numero>
+                  <ciudad>Carlet</ciudad>
+                  <codigo_postal>45170</codigo_postal>
+              </direccion>
+      </contacto>
+  </agenda>
+
+<!---
+
+Crear una DTD para representar una agenda de contactos. En dicha agenda
+introduciremos varios contactos. Cada uno de ellos tendrá nombre, apellidos,
+un tfno de contacto y una dirección de correo electrónico que será opcional.
+De cada contacto hay que almacenar también la dirección, donde conste la
+calle, número y código postal. Cuando se anote el número de teléfono del
+contacto, debe quedar constancia, obligatoriamente, del país al que
+corresponde ese número de teléfono.
+Dar de alta tres contactos en la agenda.
+
+-->

@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Colegio>
+		<Cursos>
+		<Curso>
+			<CursoNombre>DAW</CursoNombre>
+			<Grupos>
+				<Grupo>
+
+				<GrupoNombre>A</GrupoNombre>
+					<Aula>
+						<AulaNum>1</AulaNum>
+
+							<Alumnos>
+								<Alumno>
+									<NombreAlumno>Regino</NombreAlumno>
+									<Apellidos>Bosch Lozano</Apellidos>
+									<Localidad>Alginet</Localidad>
+												<Asignatura>
+													<NombreAsignatura>SI</NombreAsignatura>
+													<Nota>9</Nota>
+												</Asignatura>
+								</Alumno>
+
+								<Alumno>
+									<NombreAlumno>Paco</NombreAlumno>
+									<Apellidos>Fernandez Ayala</Apellidos>
+									<Localidad>Benifaio</Localidad>
+												<Asignatura>
+													<NombreAsignatura>SI</NombreAsignatura>
+													<Nota>7</Nota>
+												</Asignatura>
+								</Alumno>
+	
+								<Alumno>
+									<NombreAlumno>Angel</NombreAlumno>
+									<Apellidos>Chovi Benz</Apellidos>
+									<Localidad>Almussafes</Localidad>
+												<Asignatura>
+													<NombreAsignatura>SI</NombreAsignatura>
+													<Nota>4.5</Nota>
+												</Asignatura>
+								</Alumno>
+
+								<Alumno>
+									<NombreAlumno>Vicente</NombreAlumno>
+									<Apellidos>Benavent Cardona</Apellidos>
+									<Localidad>Almussafes</Localidad>
+												<Asignatura>
+													<NombreAsignatura>SI</NombreAsignatura>
+													<Nota>2.5</Nota>
+												</Asignatura>
+								</Alumno>
+
+
+
+
+							</Alumnos>
+					
+					</Aula>
+				</Grupo>
+
+
+				<Grupo>
+
+				<GrupoNombre>B</GrupoNombre>
+					<Aula>
+						<AulaNum>2</AulaNum>
+
+							<Alumnos>
+								<Alumno>
+									<NombreAlumno>Pepe</NombreAlumno>
+									<Apellidos>Grillo Rodrigo</Apellidos>
+									<Localidad>Valencia</Localidad>
+												<Asignatura>
+													<NombreAsignatura>INGLES</NombreAsignatura>
+													<Nota>8</Nota>
+												</Asignatura>
+								</Alumno>
+
+								<Alumno>
+									<NombreAlumno>Elia</NombreAlumno>
+									<Apellidos>Mendoza Navarro</Apellidos>
+									<Localidad>Barcelona</Localidad>
+												<Asignatura>
+													<NombreAsignatura>INGLES</NombreAsignatura>
+													<Nota>6</Nota>
+												</Asignatura>
+								</Alumno>
+	
+								<Alumno>
+									<NombreAlumno>Salva</NombreAlumno>
+									<Apellidos>Doval Ruano</Apellidos>
+									<Localidad>Carlet</Localidad>
+												<Asignatura>
+													<NombreAsignatura>INGLES</NombreAsignatura>
+													<Nota>4.5</Nota>
+												</Asignatura>
+								</Alumno>
+
+								<Alumno>
+									<NombreAlumno>Vicente</NombreAlumno>
+									<Apellidos>Canet Vendrell</Apellidos>
+									<Localidad>Alzira</Localidad>
+												<Asignatura>
+													<NombreAsignatura>Ingles</NombreAsignatura>
+													<Nota>1.5</Nota>
+												</Asignatura>
+								</Alumno>
+
+
+
+
+							</Alumnos>
+					
+					</Aula>
+				</Grupo>
+
+
+			</Grupos>
+		</Curso>
+
+
+
+
+		<Curso>
+			<CursoNombre>DAM</CursoNombre>
+			<Grupos>
+				<Grupo>
+
+				<GrupoNombre>A</GrupoNombre>
+					<Aula>
+						<AulaNum>3</AulaNum>
+
+							<Alumnos>
+								<Alumno>
+									<NombreAlumno>Sergio</NombreAlumno>
+									<Apellidos>Bosch Bosch</Apellidos>
+									<Localidad>Madrid</Localidad>
+												<Asignatura>
+													<NombreAsignatura>PROGRAMACIÓN</NombreAsignatura>
+													<Nota>9.5</Nota>
+												</Asignatura>
+								</Alumno>
+
+								<Alumno>
+									<NombreAlumno>Wili</NombreAlumno>
+									<Apellidos>Greus Greus</Apellidos>
+									<Localidad>Benifaio</Localidad>
+												<Asignatura>
+													<NombreAsignatura>PROGRAMACIÓN</NombreAsignatura>
+													<Nota>7.5</Nota>
+												</Asignatura>
+								</Alumno>
+	
+								<Alumno>
+									<NombreAlumno>Carles</NombreAlumno>
+									<Apellidos>Llorca Llorca</Apellidos>
+									<Localidad>Almussafes</Localidad>
+												<Asignatura>
+													<NombreAsignatura>PROGRAMACIÓN</NombreAsignatura>
+													<Nota>3.5</Nota>
+												</Asignatura>
+								</Alumno>
+
+								<Alumno>
+									<NombreAlumno>Edwin</NombreAlumno>
+									<Apellidos>Rodriguez Rodriguez</Apellidos>
+									<Localidad>Almussafes</Localidad>
+												<Asignatura>
+													<NombreAsignatura>PROGRAMACIÓN</NombreAsignatura>
+													<Nota>0.5</Nota>
+												</Asignatura>
+								</Alumno>
+
+
+
+
+							</Alumnos>
+					
+					</Aula>
+				</Grupo>
+
+
+				<Grupo>
+
+				<GrupoNombre>B</GrupoNombre>
+					<Aula>
+						<AulaNum>4</AulaNum>
+
+							<Alumnos>
+								<Alumno>
+									<NombreAlumno>Tomas</NombreAlumno>
+									<Apellidos>Roncero Roncero</Apellidos>
+									<Localidad>Valencia</Localidad>
+												<Asignatura>
+													<NombreAsignatura>BASES DE DATOS</NombreAsignatura>
+													<Nota>8</Nota>
+												</Asignatura>
+								</Alumno>
+
+								<Alumno>
+									<NombreAlumno>Eli</NombreAlumno>
+									<Apellidos>Navarro Navarro</Apellidos>
+									<Localidad>Barcelona</Localidad>
+												<Asignatura>
+													<NombreAsignatura>BASES DE DATOS</NombreAsignatura>
+													<Nota>6.8</Nota>
+												</Asignatura>
+								</Alumno>
+	
+								<Alumno>
+									<NombreAlumno>Edmun</NombreAlumno>
+									<Apellidos>Ruano Ruano</Apellidos>
+									<Localidad>Alfarp</Localidad>
+												<Asignatura>
+													<NombreAsignatura>BASES DE DATOS</NombreAsignatura>
+													<Nota>2.5</Nota>
+												</Asignatura>
+								</Alumno>
+
+								<Alumno>
+									<NombreAlumno>Vicent</NombreAlumno>
+									<Apellidos>Canet Canet</Apellidos>
+									<Localidad>Benimodo</Localidad>
+												<Asignatura>
+													<NombreAsignatura>BASES DE DATOS</NombreAsignatura>
+													<Nota>7.5</Nota>
+												</Asignatura>
+								</Alumno>
+
+
+
+
+							</Alumnos>
+					
+					</Aula>
+				</Grupo>
+
+
+			</Grupos>
+		</Curso>
+
+
+
+		<Curso>
+			<CursoNombre>ADMINISTRACIÓN Y FINANZAS</CursoNombre>
+			<Grupos>
+				<Grupo>
+
+				<GrupoNombre>A</GrupoNombre>
+					<Aula>
+						<AulaNum>5</AulaNum>
+
+							<Alumnos>
+								<Alumno>
+									<NombreAlumno>Sergio</NombreAlumno>
+									<Apellidos>Lozano Lozano</Apellidos>
+									<Localidad>Madrid</Localidad>
+												<Asignatura>
+													<NombreAsignatura>CONTABILIDAD</NombreAsignatura>
+													<Nota>9.5</Nota>
+												</Asignatura>
+								</Alumno>
+
+								<Alumno>
+									<NombreAlumno>Laura</NombreAlumno>
+									<Apellidos>Greus Greus</Apellidos>
+									<Localidad>Benifaio</Localidad>
+												<Asignatura>
+													<NombreAsignatura>CONTABILIDAD</NombreAsignatura>
+													<Nota>4.5</Nota>
+												</Asignatura>
+								</Alumno>
+	
+								<Alumno>
+									<NombreAlumno>Maria</NombreAlumno>
+									<Apellidos>Fergo Fergo</Apellidos>
+									<Localidad>Almussafes</Localidad>
+												<Asignatura>
+													<NombreAsignatura>CONTABILIDAD</NombreAsignatura>
+													<Nota>1.5</Nota>
+												</Asignatura>
+								</Alumno>
+
+								<Alumno>
+									<NombreAlumno>Ed</NombreAlumno>
+									<Apellidos>Altamira Altamira</Apellidos>
+									<Localidad>Lleida</Localidad>
+												<Asignatura>
+													<NombreAsignatura>CONTABILIDAD</NombreAsignatura>
+													<Nota>10</Nota>
+												</Asignatura>
+								</Alumno>
+
+
+
+
+							</Alumnos>
+					
+					</Aula>
+				</Grupo>
+
+
+				<Grupo>
+
+				<GrupoNombre>B</GrupoNombre>
+					<Aula>
+						<AulaNum>5</AulaNum>
+
+							<Alumnos>
+								<Alumno>
+									<NombreAlumno>Tomas</NombreAlumno>
+									<Apellidos>Roncero Roncero</Apellidos>
+									<Localidad>Valencia</Localidad>
+												<Asignatura>
+													<NombreAsignatura>FOL</NombreAsignatura>
+													<Nota>8</Nota>
+												</Asignatura>
+								</Alumno>
+
+								<Alumno>
+									<NombreAlumno>Eli</NombreAlumno>
+									<Apellidos>Navarro Navarro</Apellidos>
+									<Localidad>Barcelona</Localidad>
+												<Asignatura>
+													<NombreAsignatura>FOL</NombreAsignatura>
+													<Nota>6.8</Nota>
+												</Asignatura>
+								</Alumno>
+	
+								<Alumno>
+									<NombreAlumno>Edmun</NombreAlumno>
+									<Apellidos>Ruano Ruano</Apellidos>
+									<Localidad>Alfarp</Localidad>
+												<Asignatura>
+													<NombreAsignatura>FOL</NombreAsignatura>
+													<Nota>2.5</Nota>
+												</Asignatura>
+								</Alumno>
+
+								<Alumno>
+									<NombreAlumno>Vicent</NombreAlumno>
+									<Apellidos>Canet Canet</Apellidos>
+									<Localidad>Benimodo</Localidad>
+												<Asignatura>
+													<NombreAsignatura>FOL</NombreAsignatura>
+													<Nota>7.5</Nota>
+												</Asignatura>
+								</Alumno>
+
+
+
+
+							</Alumnos>
+					
+					</Aula>
+				</Grupo>
+
+
+			</Grupos>
+		</Curso>
+
+		</Cursos>
+	
+
+</Colegio>
+
+
+

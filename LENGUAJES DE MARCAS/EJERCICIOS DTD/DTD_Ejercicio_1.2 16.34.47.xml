@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recetas[
+
+<!ELEMENT recetas (receta)>
+<!ELEMENT receta (autor?, nombreReceta+,indicativo*,ingredientes*,dificultad+)>
+
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT nombreReceta ANY>
+<!ATTLIST nombreReceta nivel CDATA "Alto" >
+
+<!ELEMENT indicativo (#PCDATA)>
+<!ATTLIST indicativo tipo CDATA  "Desayuno" >
+
+<!ELEMENT ingredientes (#PCDATA)>
+<!ELEMENT dificultad (#PCDATA)>
+
+
+]>
+
+  <recetas>
+    <receta>
+      <autor>Chicote</autor>
+      <nombreReceta nivel="ALTO">Croquetas</nombreReceta>
+      <indicativo tipo="Desayuno">Cena</indicativo>
+      <ingredientes>sal, harina, huevo, carne</ingredientes>
+      <dificultad>MEDIA</dificultad>
+    </receta>
+
+    <receta>
+      <autor>Arguiñano</autor>
+      <nombreReceta nivel="ALTO">Pella</nombreReceta>
+      <indicativo tipo="Desayuno">Comida</indicativo>
+      <ingredientes>arroz, caldo, carne, verdura, aceite</ingredientes>
+      <dificultad>BAJA</dificultad>
+    </receta>
+
+
+    <receta>
+      <autor>Ramsay</autor>
+      <nombreReceta nivel="ALTO">Huevos Rotos</nombreReceta>
+      <indicativo tipo="Desayuno">Desayuno</indicativo>
+      <ingredientes>huevo, leche, azucar</ingredientes>
+      <dificultad>MUY DIFICIL</dificultad>
+    </receta>
+
+  </recetas>

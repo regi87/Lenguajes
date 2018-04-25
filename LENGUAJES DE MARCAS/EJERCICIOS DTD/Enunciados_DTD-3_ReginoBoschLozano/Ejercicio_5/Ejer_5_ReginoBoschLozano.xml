@@ -1,0 +1,22 @@
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE etiqueta[
+<!ELEMENT etiqueta(nombre+, calle*, ciudad*, pais*, codigo*)>
+
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT calle ANY>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT codigo ANY>
+
+]>
+
+
+<etiqueta>
+<nombre>Pepe P�rez</nombre>
+<calle>C/ Sin nombre, 17</calle>
+<ciudad>Albal</ciudad>
+<pais>Espa�a</pais>
+<codigo>46470</codigo>
+</etiqueta>

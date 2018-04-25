@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+  <!--
+    tabla 3x3
+  -->
+
+  <table border="2" width=500>
+        <tr>
+          <th >Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+        </tr>
+        <tr >
+          <td >Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>80</td>
+        </tr>
+  </table>
+
+<br><br>
+  <!--
+    tabla con colspan para expandir una fila para toda lacomul
+  -->
+
+  <table border="2" width=500>
+        <tr align="left">
+          <th rowspan="4">Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+        </tr>
+        <tr align="center">
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr align="center">
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+        <tr align="center">
+          <td>Jackson_2</td>
+          <td>80</td>
+        </tr>
+  </table>
+
+  <br><br>
+  <!--
+    Input entrada texto
+  -->
+  <input  name="Nombre" id="nombre"></input>
+
+  <br><br>
+  <!--
+    Input selección uno u otro
+  -->
+  <label>Sexo:</label>
+  <input type="radio" name="CheckRadio" value="hombre" >M</input>
+  <input type="radio" name="CheckRadio" value="mujer" >H</input>
+
+<br><br>
+<!--
+  Input Lista desplegable
+-->
+  <label>Fecha de nacimiento:</label>
+  <select id="fecha_naci_dia" name="fecha_nacimiento_dia">
+    <option  selected value="dia">dia</option>
+    <option  value="fecha_1"  label="1"></option>
+    <option  value="fecha_2"  label="2"></option>
+    <option  value="fecha_3"  label="3"></option>
+    <option  value="fecha_4"  label="4"></option>
+    <option  value="fecha_5"  label="5"></option>
+    <option  value="fecha_6"  label="6"></option>
+  </select>
+
+<br><br>
+  <!--
+    Input check box
+  -->
+  <input type="checkbox" name="Base_de_datos" value="Base_de_datos">Base de datos</input>
+<br><br>
+  <!--
+  Text Area
+  -->
+  <textarea name="message" rows="5" cols="30"></textarea>
+<br><br>
+  <!--
+  Inputs buttons
+  -->
+  <input type="button" value="ENVIAR"></input>
+  <input type="button" value="RESTABLECER" onclick="history.go(0)"></input>
+
+  <br><br>
+    <!--
+    FORMULARIO
+    -->
+
+  <form action="/my-handling-form-page" method="post">
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" />
+    </div>
+    <div>
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" />
+    </div>
+    <div>
+        <label for="msg">Message:</label>
+        <textarea id="msg"></textarea>
+    </div>
+</form>
+
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Escuela">
+      <xs:complexType>
+        <xs:sequence>
+          <xs:element name="categoria" maxOccurs="unfounded">
+            <xs:element name="nombre_Cat" type="xs:string"/>
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="equipo" maxOccurs="unfounded">
+                    <xs:element name="nombre_Equi" type="xs:string"/>
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="jugador" maxOccurs="12">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="nombre" type="xs:string"/>
+                                <xs:element name="fecha_nacimiento" type="xs:date"/>
+                                <xs:element name="dorsal" type="xs:string">
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                      <xs:miInclusive value="1"/>
+                                      <xs:maxInclusive value="12"/>
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+    </xs:element>
+</xs:schema>

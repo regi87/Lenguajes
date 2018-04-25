@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE colegio [
+<!ELEMENT colegio (farmacia)>
+<!ELEMENT farmacia (nombre+, direccion, telefono_cont, persona_cont, receta)>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT telefono_cont (#PCDATA)>
+<!ELEMENT persona_cont (#PCDATA)>
+
+<!ELEMENT receta (nombre_receta+, nombre_cliente*,num_seg_social+,medicamentos*)>
+
+<!ELEMENT nombre_receta (#PCDATA)>
+<!ELEMENT nombre_cliente (#PCDATA)>
+<!ELEMENT num_seg_social (#PCDATA)>
+
+<!ELEMENT medicamentos (nombre_medi+, precio*)>
+
+<!ELEMENT nombre_medi (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+]>
+
+
+
+<colegio>
+	<farmacia>
+		<nombre>TODO SANO</nombre>
+		<direccion>c/Ballesteros, 1</direccion>
+		<telefono_cont>96 175 84 91</telefono_cont>
+		<persona_cont>Rafael</persona_cont>
+		
+		<receta>
+			<nombre_receta>Receta-1</nombre_receta>
+			<nombre_cliente>Regino</nombre_cliente>
+			<num_seg_social>123456</num_seg_social>
+			
+			<medicamento>
+				<nombre_medi>Ibuprofeno</nombre_medi>
+				<precio>2.84</precio>
+
+			</medicamento>
+			
+			
+			<medicamento>
+				<nombre_medi>Paracetamol</nombre_medi>
+				<precio>3.84</precio>
+
+			</medicamento>
+
+		</receta>
+
+
+		<receta>
+			<nombre_receta>Receta-2</nombre_receta>
+			<nombre_cliente>Boro</nombre_cliente>
+			<num_seg_social>789456</num_seg_social>
+			
+			<medicamento>
+				<nombre_medi>Atarax</nombre_medi>
+				<precio>2.00</precio>
+
+			</medicamento>
+			
+			
+			<medicamento>
+				<nombre_medi>Almax</nombre_medi>
+				<precio>1.84</precio>
+
+			</medicamento>
+
+		</receta>
+
+
+	</farmacia>
+
+
+
+	<farmacia>
+		<nombre>BIEN SALUD</nombre>
+		<direccion>c/Cervantes, 12</direccion>
+		<telefono_cont>96 174 80 97</telefono_cont>
+		<persona_cont>Laura</persona_cont>
+		
+		<receta>
+			<nombre_receta>Receta-3</nombre_receta>
+			<nombre_cliente>Afonso</nombre_cliente>
+			<num_seg_social>589632</num_seg_social>
+			
+			<medicamento>
+				<nombre_medi>Carnitina</nombre_medi>
+				<precio>4.84</precio>
+
+			</medicamento>
+			
+			
+			<medicamento>
+				<nombre_medi>Ebastel</nombre_medi>
+				<precio>7.00</precio>
+
+			</medicamento>
+
+		</receta>
+
+
+		<receta>
+			<nombre_receta>Receta-4</nombre_receta>
+			<nombre_cliente>Elena</nombre_cliente>
+			<num_seg_social>000234</num_seg_social>
+			
+			<medicamento>
+				<nombre_medi>Supradyn</nombre_medi>
+				<precio>1.50</precio>
+
+			</medicamento>
+			
+			
+			<medicamento>
+				<nombre_medi>Rosa</nombre_medi>
+				<precio>0.84</precio>
+
+			</medicamento>
+
+		</receta>
+
+
+	</farmacia>
+
+</colegio>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JSON</title>
+  </head>
+  <body>
+
+    <script language = "javascript" >
+      var ObjetoJSON =
+      {
+        "Equipo" :
+        [
+          {
+            "nomequip":"Lakers","ciudad":"Los Angeles","estado":"California",
+
+            "jugadores":
+                    [
+                      {"nombre":"Gasol","demarcacion":"Ala-Pivot","altura":1.8,"nacionalidad":"Español"},
+                      {"nombre":"Lebron","demarcacion":"Pivot","altura":1.9,"nacionalidad":"Noteamericano"},
+                      {"nombre":"Ricky","demarcacion":"Base","altura":2.9,"nacionalidad":"Español"},
+                      {"nombre":"Curry","demarcacion":"Escolta","altura":2.3,"nacionalidad":"Norteamericano"},
+                      {"nombre":"Ibaka","demarcacion":"Pivot","altura":2.2,"nacionalidad":"Español"}
+                    ]
+
+
+        },
+
+          {
+              "nomequip":"Bulls","ciudad":"Chicago","estado":"Brooklin",
+
+              "jugadores":
+                      [
+                        {"nombre":"Michael","demarcacion":"Ala","altura":2.8,"nacionalidad":"Español"},
+                        {"nombre":"Jordan","demarcacion":"Pivoton","altura":3.9,"nacionalidad":"Irlandes"},
+                        {"nombre":"Pepe","demarcacion":"Base-Ala","altura":3.9,"nacionalidad":"Italiano"},
+                        {"nombre":"Sergio","demarcacion":"Escolta","altura":2.3,"nacionalidad":"Andorrano"},
+                        {"nombre":"Josep","demarcacion":"Pivot","altura":2.9,"nacionalidad":"Español"}
+                      ]
+          },
+
+          {
+              "nomequip":"Clavaliers","ciudad":"New York","estado":"Angeles",
+
+              "jugadores":
+                      [
+                        {"nombre":"Paco","demarcacion":"Ala","altura":2.3,"nacionalidad":"Español"},
+                        {"nombre":"Oca","demarcacion":"Pivoton","altura":3.5,"nacionalidad":"Irlandes"},
+                        {"nombre":"Jordi","demarcacion":"Base-Ala","altura":4.9,"nacionalidad":"Italiano"},
+                        {"nombre":"Balta","demarcacion":"Escolta","altura":6.3,"nacionalidad":"Andorrano"},
+                        {"nombre":"Alan","demarcacion":"Pivot","altura":1.9,"nacionalidad":"Español"}
+                      ]
+          },
+
+          {
+              "nomequip":"Los Clippers","ciudad":"New Yerseys","estado":"Angeles",
+
+              "jugadores":
+                      [
+                        {"nombre":"Ruben","demarcacion":"Ala","altura":2.3,"nacionalidad":"Español"},
+                        {"nombre":"Ugo","demarcacion":"Pivoton","altura":3.5,"nacionalidad":"Irlandes"},
+                        {"nombre":"Ugito","demarcacion":"Base-Ala","altura":4.9,"nacionalidad":"Italiano"},
+                        {"nombre":"Culito","demarcacion":"Escolta","altura":6.3,"nacionalidad":"Andorrano"},
+                        {"nombre":"Ellen","demarcacion":"Pivot","altura":1.9,"nacionalidad":"Español"}
+                      ]
+          },
+
+          {
+              "nomequip":"Los Clevelands","ciudad":"Texas","estado":"Texas",
+
+              "jugadores":
+                      [
+                        {"nombre":"Richard","demarcacion":"Ala","altura":2.3,"nacionalidad":"Español"},
+                        {"nombre":"Vincent","demarcacion":"Pivoton","altura":3.5,"nacionalidad":"Irlandes"},
+                        {"nombre":"Pepe","demarcacion":"Base-Ala","altura":4.9,"nacionalidad":"Italiano"},
+                        {"nombre":"Culito","demarcacion":"Escolta","altura":6.3,"nacionalidad":"Andorrano"},
+                        {"nombre":"Ellen","demarcacion":"Pivot","altura":1.9,"nacionalidad":"Español"}
+                      ]
+          }
+
+        ]
+
+      };
+      console.log(ObjetoJSON);
+
+        for(i = 0; i<ObjetoJSON.Equipo.length; i++)
+          {
+           document.writeln("<td>");
+           document.writeln("<table border = '1' width = 300 >");
+           document.writeln("<tr><th><b>Equipo</b></th><th><b>Ciudad</b></th><th><b>Estado</b></th><tr><td width = 300>" + ObjetoJSON.Equipo[i].nomequip +"</td><td width = 300>" + ObjetoJSON.Equipo[i].ciudad +"</td><td width = 300>" + ObjetoJSON.Equipo[i].estado +"</td></tr>");
+           document.writeln("</table>");
+           document.writeln("</td>");
+           var x=ObjetoJSON.Equipo[i].jugadores;
+           document.writeln("<br>");
+           for(j = 0; j<x.length; j++)
+           {
+             document.writeln("<td>");
+             document.writeln("<table border = '1' width = 300 >");
+             document.writeln("<tr><th><b>Nombre</b></th><th><b>Demarcacion</b></th><th><b>Atura</b></th><th><b>Nacionalidad</b></th><tr><td width = 300>" + x[j].nombre +"</td><td width = 300>" + x[j].demarcacion +"</td><td width = 300>" + x[j].altura +"</td><td width = 300>" + x[j].nacionalidad +"</td></tr>");
+             document.writeln("</table>");
+             document.writeln("</td>");
+           }
+           document.writeln("<br>");
+
+        }
+
+    </script>
+
+  </body>
+</html>

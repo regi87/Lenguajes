@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <style media="screen">
+
+    body
+    {
+      margin: 0 auto;
+      font-family: Arial, Helvetica, sans-serif;
+      width: 80%;
+
+    }
+    input:focus, select:focus
+    {
+      background-color: yellow;
+    }
+    input:hover, select:hover
+     {
+      background-color: red;
+     }
+     legend
+     {
+       font-weight: bold;
+     }
+    
+
+    </style>
+  </head>
+  <body>
+    <form action="" method="post">
+      <fieldset>
+        <legend>¿QUIÉN ERES?</legend>
+        <p>
+          <label for="nombre">Nombre</label><br />
+          <input type="text" name="nombre" id="nombre" /><br />
+          <label for="apellidos">Apellidos</label><br />
+          <input type="text" name="apellidos" id="apellidos" /><br />
+          <label for="correo">Correo</label><br />
+          <input type="text" name="correo" id="correo" /><br />
+
+          <label for="dia">Fecha de nacimiento</label><br />
+          <select name="dia" id="dia">
+          <option>Día</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          </select>
+
+          <select name="mes" id="mes">
+          <option>Mes</option>
+          <option>Enero</option>
+          <option>Febrero</option>
+          <option>Marzo</option>
+          <option>Abril</option>
+          <option>Mayo</option>
+
+          </select>
+
+          <select name="anyo" id="anyo">
+          <option>Año</option>
+          <option>2001</option>
+          <option>2002</option>
+          <option>2003</option>
+          <option>2004</option>
+          <option>2005</option>
+
+          </select>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>¿DE DONDE ERES?</legend>
+        <p>
+          <label for="ciudad">Ciudad</label><br />
+          <input type="text" name="ciudad" id="ciudad" /><br />
+          <label for="cod_posta">Código Postal</label><br />
+          <input type="text" name="cod_posta" id="cod_posta" /><br />
+          <label for="pais">País</label><br />
+          <select name="pais" id="pais">
+          <option>España</option>
+          <option>Francia</option>
+          <option>Alemania</option>
+          <option>Portugal</option>
+          <option>HOlanda</option>
+          </select>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>¿CÓMO QUIERES INICIAR SESIÓN?</legend>
+        <p>
+          <label for="ciudad">Nombre de usuario</label><br />
+          <input type="text" name="ciudad" id="ciudad" /><br />
+          <label for="contrasenya">Contraseña</label><br />
+          <input type="password" name="contrasenya" id="contrasenya" /><br />
+          <label for="repcontrasenya">Vuelve a escribir la contraseña</label><br />
+          <input type="password" name="repcontrasenya" id="repcontrasenya" />
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>CONDICIONES DE REGISTRO</legend>
+        <p>
+        <label>Deseo recibir ofertas de iDESWEB</label><br />
+        <input type="radio" name="ofertas" id="ofertas1" value="1" /> <label for="ofertas1" class="inline">Una vez al día</label>
+        <input type="radio" name="ofertas" id="ofertas2" value="2" /> <label for="ofertas2" class="inline">Una vez a la semana</label>
+        <input type="radio" name="ofertas" id="ofertas3" value="3" /> <label for="ofertas3" class="inline">Una vez al mes</label>
+        </p>
+
+        <p>
+        <input type="checkbox" name="acepto" id="acepto" />
+        <label for="acepto" class="inline">Acepto el acuerdo de servicios, la declaración de privacidad y la declaración de uso de cookies</label>
+        </p>
+      </fieldset>
+
+      <p class="centrado">
+        <input type="submit" value="Crear cuenta" id="boton-crear" />
+      </p>
+    </form>
+  </body>
+</html>

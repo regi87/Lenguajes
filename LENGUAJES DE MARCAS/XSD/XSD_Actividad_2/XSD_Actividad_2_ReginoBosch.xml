@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Escuela xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XSD_Actividad_2_ReginoBosch.xsd">
+    <categoria>
+      <nombre_Cat></nombre_Cat>
+          <equipo>
+            <nombre_Equi></nombre_Equi>
+                <jugador>
+                  <nombre></nombre>
+                  <nombre></nombre>
+                  <fecha_nacimiento></fecha_nacimiento>
+                  <dorsal></dorsal>
+                </jugador>
+          </equipo>
+    </categoria>
+</Escuela>

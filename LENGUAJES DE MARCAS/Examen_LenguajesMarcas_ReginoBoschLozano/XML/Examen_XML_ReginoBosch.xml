@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Escuela xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../XSD/Examen_XSD_ReginoBosch.xsd">
+    <aula>
+      <nombre_Aula>A</nombre_Aula>
+                <alumno>
+                  <nombre>Paco</nombre>
+                  <fecha_nacimiento>1999-1-01</fecha_nacimiento>
+                  <aula>A.a</aula>
+                </alumno>
+                <alumno>
+                  <nombre>Juan</nombre>
+                  <fecha_nacimiento>1997-1-02</fecha_nacimiento>
+                  <aula>A.b</aula>
+                </alumno>
+    </aula>
+
+    <aula>
+      <nombre_Aula>B</nombre_Aula>
+                <alumno>
+                  <nombre>Miriam</nombre>
+                  <fecha_nacimiento>1996-1-03</fecha_nacimiento>
+                  <aula>B.a</aula>
+                </alumno>
+                <alumno>
+                  <nombre>Laura</nombre>
+                  <fecha_nacimiento>1995-1-01</fecha_nacimiento>
+                  <aula>B.b</aula>
+                </alumno>
+    </aula>
+</Escuela>

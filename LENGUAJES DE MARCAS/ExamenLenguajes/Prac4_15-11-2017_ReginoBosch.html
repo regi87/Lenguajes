@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+
+    <style type="text/css">
+
+        h2
+        {
+            background-color: #B0B0B0;
+            background-size: 20px;
+        }
+        h1
+        {
+            background-color: #F2F2F2;
+            background-size: 40px;
+        }
+
+        label
+        {
+          font-weight: bold;
+        }
+      p
+      {
+        color: blue;
+      }
+
+      #parrafoCursiva
+      {
+        color: blue;
+        font-style: italic;
+      }
+        body
+        {
+          background-color: #A9F5F2;
+        }
+        #text
+        {
+          font-family: sans-serif;
+
+        }
+
+    </style>
+  </head>
+  <body>
+    <div id="text">
+      <h1>Florida Centre de Formació</h1>
+      <h2 >Ejemplo de formulario: Matriculación en el DAW</h2>
+
+      <form  method="post">
+            <table width= "1100" cellpadding="10" border="0" >
+             <tr>
+                  <td>
+                    <label>Nombre:</label>
+                    <input  name="Nombre" id="nombre"></input>
+                  </td>
+                  <td>
+                     <label>Apellidos:</label>
+                     <input name="Apellidos" id="apellidos"></input>
+                 </td>
+                  <td align = "left">
+                      <label>Sexo:</label>
+                      <input type="radio" name="CheckRadio" value="hombre" >M</input>
+                      <input type="radio" name="CheckRadio" value="mujer" >H</input>
+                  </td>
+            </tr>
+            <tr>
+              <td>
+                <label>Fecha de nacimiento:</label>
+                <select id="fecha_naci_dia" name="fecha_nacimiento_dia">
+                  <option  selected value="dia">dia</option>
+                  <option  value="fecha_1"  label="1"></option>
+                  <option  value="fecha_2"  label="2"></option>
+                  <option  value="fecha_3"  label="3"></option>
+                  <option  value="fecha_4"  label="4"></option>
+                  <option  value="fecha_5"  label="5"></option>
+                  <option  value="fecha_6"  label="6"></option>
+                  <option  value="fecha_7"  label="7"></option>
+                  <option  value="fecha_8"  label="8"></option>
+                  <option  value="fecha_9"  label="9"></option>
+                  <option  value="fecha_10"  label="10"></option>
+                  <option  value="fecha_11" label="11"></option>
+                  <option  value="fecha_12"  label="12"></option>
+                  <option  value="fecha_13"  label="13"></option>
+                  <option  value="fecha_14"  label="14"></option>
+                  <option  value="fecha_15"  label="15"></option>
+                  <option  value="fecha_16"  label="16"></option>
+                  <option  value="fecha_17"  label="17"></option>
+                  <option  value="fecha_18"  label="18"></option>
+                  <option  value="fecha_19"  label="19"></option>
+                  <option  value="fecha_20"  label="20"></option>
+                  <option  value="fecha_21"  label="21"></option>
+                  <option   value="fecha_22" label="22"></option>
+                  <option  value="fecha_23"  label="23"></option>
+                  <option  value="fecha_24"  label="24"></option>
+                  <option  value="fecha_25"  label="25"></option>
+                  <option  value="fecha_26"  label="26"></option>
+                  <option  value="fecha_27"  label="27"></option>
+                  <option  value="fecha_28"  label="28"></option>
+                  <option  value="fecha_29"  label="29"></option>
+                  <option  value="fecha_30"  label="30"></option>
+                  <option  value="fecha_31"  label="31"></option>
+              </select>
+
+              <select id="fecha_naci_mes" name="fecha_nacimiento_mes">
+                <option  selected value="mes">mes</option>
+                <option  value="fecha_mes_1"  label="Enero"></option>
+                <option  value="fecha_mes_2"  label="Febrero"></option>
+                <option  value="fecha_mes_3"  label="Marzo"></option>
+                <option  value="fecha_mes_4"  label="Abril"></option>
+                <option  value="fecha_mes_5"  label="Mayo"></option>
+                <option  value="fecha_mes_6"  label="Junio"></option>
+                <option  value="fecha_mes_7"  label="Julio"></option>
+                <option  value="fecha_mes_8"  label="Agosto"></option>
+                <option  value="fecha_mes_9"  label="Septiembre"></option>
+                <option  value="fecha_mes_10"  label="Octubre"></option>
+                <option  value="fecha_mes_11"  label="Noviembre"></option>
+                <option  value="fecha_mes_12"  label="Diciembre"></option>
+              </select>
+
+              <select id="fecha_naci_anyo" name="fecha_nacimiento_año">
+                <option  selected value="año">año</option>
+                <option  value="fecha_año_1"  label="2000"></option>
+                <option  value="fecha_año_2"  label="2001"></option>
+                <option  value="fecha_año_3"  label="2002"></option>
+                <option  value="fecha_año_4"  label="2003"></option>
+                <option  value="fecha_año_5"  label="2004"></option>
+                <option  value="fecha_año_6"  label="2005"></option>
+                <option  value="fecha_año_7"  label="2006"></option>
+                <option  value="fecha_año_8"  label="2007"></option>
+                <option  value="fecha_año_9"  label="2008"></option>
+                <option  value="fecha_año_10"  label="2009"></option>
+                <option  value="fecha_año_11"  label="2010"></option>
+                <option  value="fecha_año_12"  label="2011"></option>
+                <option  value="fecha_año_13"  label="2012"></option>
+                <option  value="fecha_año_14"  label="2013"></option>
+                <option  value="fecha_año_15"  label="2014"></option>
+                <option  value="fecha_año_16"  label="2015"></option>
+                <option  value="fecha_año_17"  label="2016"></option>
+                <option  value="fecha_año_18"  label="2017"></option>
+              </select>
+            </td>
+            </tr>
+
+            <tr>
+              <td>
+                <p>Escoge los módulos en los que te matriculas:</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input type="checkbox" name="Base_de_datos" value="Base_de_datos">Base de datos</input>
+              </td>
+              <td>
+                <input type="checkbox" name="Programacion" value="Programacion">Programación</input>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input type="checkbox" name="Lenguaje_Marcas" value="Lenguaje_Marcas"><label>Lenguaje de Marcas</label></input>
+              </td>
+              <td>
+                <input type="checkbox" name="Ingles" value="Ingles">Inglés</input>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input type="checkbox" name="Sistemas_Informaticos" value="Sistemas_Informaticos">Sistemas Informáticos</input>
+              </td>
+              <td>
+                <input type="checkbox" name="Entronos" value="Entronos">Entronos</input>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input type="checkbox" name="FOL" value="FOL">FOL</input>
+              </td>
+              <td>
+                <input type="checkbox" name="Administracion_Sistemas_Gestores" value="Administracion_Sistemas_Gestores">Aministración de Sistemas Gestores de Bases de Datos</input>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input type="checkbox" name="Lenguajes_Marcas_Sistemas_Gestion_Informatica" value="Lenguajes_Marcas_Sistemas_Gestion_Informatica">Lenguajes de Marcas y Sistemas de Gestión de Infromación</input>
+              </td>
+              <td>
+                <input type="checkbox" name="Seguridad_Alta_Disponibilidad" value="Seguridad_Alta_Disponibilidad">Seguridad y Alta Disponibilidad</input>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input type="checkbox" name="Formacion_Orientacion_Laboral" value="Formacion_Orientacion_Laboral">Formación y Orientación Laboral</input>
+              </td>
+              <td>
+                <input type="checkbox" name="Empresa_Iniciativa_Emprendedora" value="Empresa_Iniciativa_Emprendedora">Empresa e Iniciativa Emprendedora</input>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input type="checkbox" name="Proyecto_Daw" value="Proyecto_Daw">Projecto de DAW</input>
+              </td>
+              <td>
+                <input type="checkbox" name="Formacion_Centro_Trabajo" value="Formacion_Centro_Trabajo">Formación en Centro de Trabajo</input>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <p>Estudios Previos:</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <textarea name="message" rows="5" cols="30"></textarea>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                  <input type="button" value="ENVIAR"></input>
+                  <input type="button" value="RESTABLECER" onclick="history.go(0)"></input>
+              </td>
+            </tr>
+
+            <tr>
+              <td colspan="2">
+                <p id="parrafoCursiva">Pulsa el botón de "enviar" para formalizar la matrícula o el boton de "restablecer" para limpiar el formulari</p>
+              </td>
+            </tr>
+
+          </table>
+        </form>
+      </div>
+
+  </div>
+  </body>
+</html>

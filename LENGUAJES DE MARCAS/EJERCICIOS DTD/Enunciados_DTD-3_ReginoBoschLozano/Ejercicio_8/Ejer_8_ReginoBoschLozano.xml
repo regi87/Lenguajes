@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE transportes[
+
+<!ELEMENT transportes (nombre_transporte, informe_envios)>
+<!ELEMENT nombre_transporte ANY>
+
+
+<!ELEMENT informe_envios (nombre_informe, decripcion, fecha_informe+,region)>
+
+<!ELEMENT nombre_informe (#PCDATA)>
+<!ELEMENT decripcion (#PCDATA)>
+<!ELEMENT fecha_informe ANY >
+
+<!ELEMENT region (nombre_region, semestre)>
+<!ELEMENT nombre_region (#PCDATA)>
+<!ATTLIST nombre_region nombre CDATA "Norte  Centro  Sur" #REQUIRED>
+
+
+<!ELEMENT semestre (num_semestre, envios)>
+<!ELEMENT num_semetre (#PCDATA)>
+<!ATTLIST num_semetre numero CDATA "1  2" #REQUIRED>
+
+
+<!ELEMENT envios (num_envios)>
+<!ELEMENT num_envios ANY>
+
+]>
+
+
+  <transportes>
+
+    <nombre_transporte> </nombre_transporte>
+
+    <informe_envios>
+
+      <nombre_informe> </nombre_informe>
+      <descripcion> </descripcion>
+      <fecha_informe></fecha_informe>
+
+      <region>
+          <nombre_region> </nombre_region>
+
+          <semestre>
+              <num_semestre> </num_semestre>
+
+                  <envios>
+
+                    <num_envios></num_envios>
+
+                  </envios>
+
+          </semestre>
+
+      </region>
+
+
+    </informe_envios>
+
+  </transportes>

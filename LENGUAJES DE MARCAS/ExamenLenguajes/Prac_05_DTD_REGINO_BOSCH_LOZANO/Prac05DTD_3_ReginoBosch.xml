@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE categorias [
+
+<!ELEMENT categorias (categoria)>
+<!ELEMENT categoria (jornada_liga)>
+<!ELEMENT jornada_liga (numero_jornada, division)>
+
+<!ELEMENT numero_jornada (#PCDATA)>
+<!ELEMENT division ( nombre_categoria+, fecha+, hora_partido+, equipo_local, equipo_visitante,resultado_partido+,grupo*)>
+
+<!ELEMENT nombre_categoria (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT hora_partido (#PCDATA)>
+<!ELEMENT equipo_local (#PCDATA)>
+<!ELEMENT equipo_vistante (#PCDATA)>
+<!ELEMENT resultado_partido (#PCDATA)>
+<!ELEMENT grupo ANY>
+]>
+
+<categorias>
+  <categoria>
+    <jornada_liga>
+            <numero_jornada>1</numero_jornada>
+            <division>
+              <nombre_categoria>1ª División</nombre_categoria>
+              <fecha>14/01/17</fecha>
+              <hora_partido>22:00</hora_partido>
+              <equipo_local>Barça</equipo_local>
+              <equipo_visitante>Deportivo</equipo_visitante>
+              <resultado_partido>4-0</resultado_partido>
+              <grupo></grupo>
+          </division>
+          <division>
+            <nombre_categoria>1ª División</nombre_categoria>
+            <fecha>4/01/17</fecha>
+            <hora_partido>21:00</hora_partido>
+            <equipo_local>Real Madrid</equipo_local>
+            <equipo_visitante>Español </equipo_visitante>
+            <resultado_partido>0-8</resultado_partido>
+            <grupo></grupo>
+        </division>
+
+        <division>
+            <nombre_categoria>2ª División</nombre_categoria>
+            <fecha>14/01/17</fecha>
+            <hora_partido>17:00</hora_partido>
+            <equipo_local>Mestalla</equipo_local>
+            <equipo_visitante>Chapecoense</equipo_visitante>
+            <resultado_partido>1-0</resultado_partido>
+            <grupo></grupo>
+        </division>
+        <division>
+            <nombre_categoria>2ª División</nombre_categoria>
+            <fecha>4/01/17</fecha>
+            <hora_partido>19:00</hora_partido>
+            <equipo_local>Flamengo</equipo_local>
+            <equipo_visitante>Goku </equipo_visitante>
+            <resultado_partido>0-0</resultado_partido>
+            <grupo></grupo>
+        </division>
+
+            <division>
+              <nombre_categoria>2ªB División</nombre_categoria>
+              <fecha>14/01/17</fecha>
+              <hora_partido>12:00</hora_partido>
+              <equipo_local>River Plate</equipo_local>
+              <equipo_visitante>Brasil</equipo_visitante>
+              <resultado_partido>2-0</resultado_partido>
+              <grupo>A</grupo>
+            </division>
+            <division>
+              <nombre_categoria>2ªB División</nombre_categoria>
+              <fecha>4/01/17</fecha>
+              <hora_partido>16:00</hora_partido>
+              <equipo_local>Flamengo</equipo_local>
+              <equipo_visitante>Goku </equipo_visitante>
+              <resultado_partido>3-1</resultado_partido>
+              <grupo>B</grupo>
+            </division>
+
+            <division>
+              <nombre_categoria>3º División</nombre_categoria>
+              <fecha>18/01/17</fecha>
+              <hora_partido>12:00</hora_partido>
+              <equipo_local>Zeus</equipo_local>
+              <equipo_visitante>Hades</equipo_visitante>
+              <resultado_partido>1-1</resultado_partido>
+              <grupo>D</grupo>
+            </division>
+            <division>
+              <nombre_categoria>3º División</nombre_categoria>
+              <fecha>6/01/17</fecha>
+              <hora_partido>10:00</hora_partido>
+              <equipo_local>Vegeta</equipo_local>
+              <equipo_visitante>Android </equipo_visitante>
+              <resultado_partido>3-1</resultado_partido>
+              <grupo>E</grupo>
+            </division>
+    </jornada_liga>
+
+    <jornada_liga>
+            <numero_jornada>2</numero_jornada>
+            <division>
+              <nombre_categoria>1ª División</nombre_categoria>
+              <fecha>5/05/17</fecha>
+              <hora_partido>13:00</hora_partido>
+              <equipo_local>Sevilla</equipo_local>
+              <equipo_visitante>Betis</equipo_visitante>
+              <resultado_partido>4-0</resultado_partido>
+              <grupo></grupo>
+          </division>
+          <division>
+            <nombre_categoria>1ª División</nombre_categoria>
+            <fecha>10/01/17</fecha>
+            <hora_partido>21:00</hora_partido>
+            <equipo_local>Getafe</equipo_local>
+            <equipo_visitante>Villareal </equipo_visitante>
+            <resultado_partido>0-2</resultado_partido>
+            <grupo></grupo>
+        </division>
+
+        <division>
+            <nombre_categoria>2ª División</nombre_categoria>
+            <fecha>14/01/17</fecha>
+            <hora_partido>17:00</hora_partido>
+            <equipo_local>Windows</equipo_local>
+            <equipo_visitante>MAC</equipo_visitante>
+            <resultado_partido>0-20</resultado_partido>
+            <grupo></grupo>
+        </division>
+        <division>
+            <nombre_categoria>2ª División</nombre_categoria>
+            <fecha>6/11/17</fecha>
+            <hora_partido>19:00</hora_partido>
+            <equipo_local>Teclado</equipo_local>
+            <equipo_visitante>Raton </equipo_visitante>
+            <resultado_partido>1-0</resultado_partido>
+            <grupo></grupo>
+        </division>
+
+            <division>
+              <nombre_categoria>2ªB División</nombre_categoria>
+              <fecha>14/01/17</fecha>
+              <hora_partido>12:00</hora_partido>
+              <equipo_local>Altavoces</equipo_local>
+              <equipo_visitante>España</equipo_visitante>
+              <resultado_partido>2-0</resultado_partido>
+              <grupo>C</grupo>
+            </division>
+            <division>
+              <nombre_categoria>2ªB División</nombre_categoria>
+              <fecha>4/01/17</fecha>
+              <hora_partido>16:00</hora_partido>
+              <equipo_local>Cataluña</equipo_local>
+              <equipo_visitante>Argentina </equipo_visitante>
+              <resultado_partido>0-1</resultado_partido>
+              <grupo>D</grupo>
+            </division>
+
+            <division>
+              <nombre_categoria>3º División</nombre_categoria>
+              <fecha>18/01/17</fecha>
+              <hora_partido>12:00</hora_partido>
+              <equipo_local>Poseidon</equipo_local>
+              <equipo_visitante>Afrodita</equipo_visitante>
+              <resultado_partido>1-1</resultado_partido>
+              <grupo>F</grupo>
+            </division>
+            <division>
+              <nombre_categoria>3º División</nombre_categoria>
+              <fecha>3/01/17</fecha>
+              <hora_partido>10:00</hora_partido>
+              <equipo_local>Boo</equipo_local>
+              <equipo_visitante>Freezer </equipo_visitante>
+              <resultado_partido>3-1</resultado_partido>
+              <grupo>G</grupo>
+            </division>
+    </jornada_liga>
+  </categoria>
+</categorias>
